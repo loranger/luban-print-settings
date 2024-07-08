@@ -1,0 +1,42 @@
+{
+  "version": "4.12.0",
+  "name": "V-bit 4502",
+  "category": "Walnut",
+  "i18nName": "",
+  "i18nCategory": "",
+  "isRecommended": false,
+  "inherits": "snapmaker2",
+  "metadata": {},
+  "overrides": {
+    "tool_type": {
+      "default_value": "vbit"
+    },
+    "diameter": {
+      "default_value": 0.2
+    },
+    "angle": {
+      "default_value": 45
+    },
+    "shaft_diameter": {
+      "default_value": 3.175
+    },
+    "jog_speed": {
+      "default_value": 1500
+    },
+    "work_speed": {
+      "default_value": 300
+    },
+    "plunge_speed": {
+      "default_value": 200
+    },
+    "step_down": {
+      "default_value": 0.5
+    },
+    "step_over": {
+      "default_value": 0.12
+    },
+    "tool_extension_enabled": {
+      "default_value": false
+    }
+  }
+}

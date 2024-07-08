@@ -1,0 +1,48 @@
+{
+  "version": "4.8.2",
+  "name": "Gravure remplie de points",
+  "category": "Liège",
+  "i18nName": "key-default_name-Dot-filled Engraving",
+  "i18nCategory": "key-default_category-Cork",
+  "isRecommended": false,
+  "inherits": "snapmaker2",
+  "metadata": {},
+  "overrides": {
+    "path_type": {
+      "default_value": "fill"
+    },
+    "work_speed": {
+      "default_value": 1200
+    },
+    "multi_passes": {
+      "default_value": 1
+    },
+    "multi_pass_depth": {
+      "default_value": 1
+    },
+    "fixed_power": {
+      "default_value": 100
+    },
+    "fixed_power_enabled": {
+      "default_value": true
+    },
+    "movement_mode": {
+      "default_value": "greyscale-dot"
+    },
+    "fill_interval": {
+      "default_value": 0.2
+    },
+    "dwell_time": {
+      "default_value": 5
+    },
+    "jog_speed": {
+      "default_value": 3000
+    },
+    "direction": {
+      "default_value": "Horizontal"
+    },
+    "initial_height_offset": {
+      "default_value": 0
+    }
+  }
+}
